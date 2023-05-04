@@ -56,13 +56,24 @@ const users = [
     {name: 'Henry Cavill', username: 'Henry', password: 'Password009'},
     {name: 'Jennifer Lawrence', username: 'Jennifer', password: 'Password010'},
 ];
+console.log(users[0]['password'])
+console.log(users[1]['password'])
+console.log(users[2]['password'])
+console.log(users[3]['password'])
+console.log(users[4]['password'])
+console.log(users[5]['password'])
+console.log(users[6]['password'])
+console.log(users[7]['password'])
+console.log(users[8]['password'])
+console.log(users[9]['password'])
+//----------// або //------------
 for (const user of users) {
-    console.log(user['password']) // або кожному console.log(users[індекс]['password'])
+    console.log(user['password'])
 }
 // -------------------------------------------------------------------------------------------------------------
 // Логічні розгалуження:
-//     - Є змінна х, якій ви надаєте довільне числове значення.
-//     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
+// - Є змінна х, якій ви надаєте довільне числове значення.
+//   Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 let x = 0;
 if (x !== 0) {
     console.log('Вірно')
@@ -89,11 +100,11 @@ if (time >= 0 && time <= 15) {
 // -------------------------------------------------------------------------------------------------------------
 // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 const day = 31;
-if (day <= 10) {
+if (day >= 0 && day <= 10) {
     console.log('Перша')
-} else if (day <= 20) {
+} else if (day >= 11 && day <= 20) {
     console.log('Друга')
-} else if (day <= 31) {
+} else if (day >= 21 && day <= 31) {
     console.log('Третя')
 } else {
     console.log('Error')
