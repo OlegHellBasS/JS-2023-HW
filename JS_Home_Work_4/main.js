@@ -107,9 +107,6 @@ createListDiv_arr(users)
 // - створити функцію яка повертає найменьше число з масиву
 //---------------------------------------------------------------------------------------------------------------------
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-arr_minNumber(numbers);
-
 function arr_minNumber(arr) {
     let minNumber = arr[0];
     for (let num of arr) {
@@ -119,7 +116,6 @@ function arr_minNumber(arr) {
     }
     return minNumber;
 }
-
 let minNumbers = arr_minNumber(numbers);
 console.log(minNumbers)
 //---------------------------------------------------------------------------------------------------------------------
