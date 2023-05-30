@@ -1,0 +1,57 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member{
+    width: 80%;
+    display: flex;
+    background: white;
+    color: black;
+}
+img{
+    height: 300px;
+}
+.coursesArray_div{
+    width: 50%;
+    height: 500px;
+    border: solid black 2px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.title_div{
+    width: 95%;
+    height: 10%;
+    border: solid black 2px;
+    text-align: center;
+}
+.monthDuration_hourDuration_div{
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.monthDuration_div{
+    width: 20%;
+    height: 100%;
+    border: solid black 2px;
+    text-align: center;
+}
+.hourDuration_div{
+    width: 75%;
+    height: 100%;
+    border: solid black 2px;
+    text-align: center;
+}
+.modules_div{
+    width: 95%;
+    height: 70%;
+    border: solid black 2px;
+    font-size: 20px;
+}
