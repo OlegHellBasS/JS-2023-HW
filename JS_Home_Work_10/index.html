@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Home Work 10</title>
+    <style>
+        #wrap{
+            width: 300px;
+            height: 300px;
+            background: blue;
+        }
+        #text{
+            width: 300px;
+            height: 300px;
+            background: black;
+        }
+        #output{
+            width: 300px;
+            height: 300px;
+            background: aqua;
+        }
+        #priceBlock{
+            width: 300px;
+            height: 300px;
+            background: chartreuse;
+        }
+    </style>
+</head>
+<body>
+<form name="form1">
+    <label> Name : <input type="text" name="name" placeholder="Name" required></label>
+    <label> Surname : <input type="text" name="surname" placeholder="Surname" required></label>
+    <label> Age : <input type="number" name="age" placeholder="Age" required></label>
+    <button type="submit">Send</button>
+</form>
+
+<br>
+
+<button id="prev" disabled="disabled">Prev</button>
+<button id="next" >Next</button>
+<div id="wrap"></div>
+<br>
+
+<div id="text"></div>
+<button id="button">Зникнути</button>
+
+<br>
+
+<label for="rows">Кількість рядків:</label>
+<input type="number" id="rows"><br>
+<label for="columns">Кількість ячеєк:</label>
+<input type="number" id="columns"><br>
+<label for="content">Вміст ячеєк:</label>
+<input type="text" id="content"><br>
+<button onclick="createTable()">Створити табличку</button>
+<div id="output"></div>
+
+<br>
+
+<div id="priceBlock">100грн</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
