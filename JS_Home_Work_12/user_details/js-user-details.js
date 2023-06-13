@@ -1,18 +1,5 @@
 let userId = new URL(location.href).searchParams.get(`id`);
 console.log(userId)
-// fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
-//     .then((response) => response.json())
-//     .then((user) => {
-//         let wrap = document.getElementsByClassName('wrap')[0];
-//         let userList = document.createElement('ul');
-//         wrap.appendChild(userList)
-//         for (const userKey in user) {
-//             const listItem = document.createElement('li');
-//             listItem.innerText = `${userKey}: ${user[userKey]}`;
-//             userList.appendChild(listItem);
-//         }
-//     });
-
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then((response) => response.json())
     .then((user) => {
