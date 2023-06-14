@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.userListText{
+    width: 100%;
+    height: 15%;
+    background: #00a3c1;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 60px;
+    letter-spacing: 20px;
+    margin: 1.5%;
+}
+.userListBloc{
+    width: 100%;
+    height: 85%;
+    /*background-image: url("clipboard-icon-left-side-in-white-background.jpg");*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center bottom;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column
+}
+.userBloc{
+    width: 19%;
+    height: 40%;
+    border: solid #0160e4 3px;
+    background-color: rgba(0, 163, 193, 0.89);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    color: #00153a;
+    padding-top: 15px;
+}
+.buttunBloc{
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+}
+.atuin-btn {
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: #012a65;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bruno Ace SC', cursive;
+    background: #337AB7;
+    cursor: pointer;
+    border: 2px solid #0160e4;
+    outline: 1px solid;
+    border-radius: 15px;
+    text-shadow: none;
+    transition: all 2.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.atuin-btn:hover,
+.atuin-btn:active,
+.atuin-btn:focus {
+    box-shadow: inset 0 0 20px #BFE2FF;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    color: #FFF;
+}
+p{
+    margin: 0;
+}
+.userId{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
