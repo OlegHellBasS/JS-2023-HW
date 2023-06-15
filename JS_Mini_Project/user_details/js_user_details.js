@@ -93,7 +93,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${usersId}`)
         companyList.appendChild(catchPhraseItem);
 
         let bsItem = document.createElement('li');
-        bsItem.innerHTML = `bs: ${company.bs}`;
+        bsItem.innerText = `Bs: ${company.bs}`;
         companyList.appendChild(bsItem);
 
         companybloc.appendChild(companyText);
