@@ -10,7 +10,7 @@ body{
 .userListText{
     width: 100%;
     height: 15%;
-    background: #00a3c1;
+    background: #000000;
     display: flex;
     justify-content: center;
     color: white;
@@ -37,8 +37,7 @@ h1{
 .userBloc{
     width: 19%;
     height: 40%;
-    border: solid #0160e4 3px;
-    background-color: rgba(0, 163, 193, 0.89);
+    border: solid #000000 3px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -47,7 +46,6 @@ h1{
     font-size: 25px;
     font-family: 'Bruno Ace SC', cursive;
     text-align: center;
-    color: #00153a;
     padding-top: 15px;
 }
 .buttunBloc{
@@ -63,13 +61,13 @@ h1{
     font-size: 20px;
     line-height: 20px;
     padding: 12px 30px;
-    color: #012a65;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Bruno Ace SC', cursive;
-    background: #337AB7;
+    background: #6c6c6c;
     cursor: pointer;
-    border: 2px solid #0160e4;
+    border: 2px solid #000000;
     outline: 1px solid;
     border-radius: 15px;
     text-shadow: none;

@@ -25,11 +25,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
             button.classList.add('button','atuin-btn')
             button.innerText = "User details";
             button.addEventListener('click', () => {
-                window.location.href = 'user-details.html';
+                window.location.href = `../user_details/user-details.html?id=${user.id}`;
             });
 
             buttunBloc.appendChild(button);
         }
     });
-
-

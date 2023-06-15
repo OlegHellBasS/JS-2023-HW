@@ -1,0 +1,110 @@
+.body{
+    margin: 0;
+}
+.wrap{
+    width: 100vw;
+    height: 950px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.userDetailsText{
+    width: 100%;
+    height: 8%;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+}
+h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 28px;
+    letter-spacing: 20px;
+    margin: 1.5%;
+}
+.postIdBloc{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 12px;
+    border: solid #030000 2px;
+}
+.userbloc{
+    display: flex;
+    align-items: center;
+    font-family: 'Bruno Ace SC', cursive;
+    padding-left: 5px;
+}
+.idBloc{
+    width: 100%;
+    height: 8%;
+    margin-bottom: 40px;
+}
+.bodyBloc{
+    width: 100%;
+    height: 15%;
+}
+.userIdBloc{
+    width: 100%;
+    height: 5%;
+    margin-top: 5%;
+}
+.titleBloc{
+    width: 100%;
+    height: 22%;
+}
+.commentsBloc{
+    width: 63%;
+    height: 88%;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.commentBloc{
+    width: 98%;
+    height: 18%;
+    border: solid #000000 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+.idPostBloc{
+    width: 14%;
+    height: 13%;
+    margin: 2px 0 0 2px;
+    background: silver;
+}
+p{
+    margin: 0 0 0 5px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.emailBloc{
+    width: 73%;
+    height: 13%;
+    margin: 2px 0 0 2px;
+    background: silver;
+}
+.emailBlocpostId{
+    width: auto;
+    height: 13%;
+    margin: 2px 0 0 2px;
+    background: silver;
+    padding-right: 5px;
+}
+.namePostBloc{
+    width: 99%;
+    height: 13%;
+    margin: 2px 0 0 2px;
+    background: silver;
+}
+.bodyPostBloc{
+    width: 99%;
+    height: auto;
+    margin: 2px;
+}
